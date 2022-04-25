@@ -2,11 +2,11 @@
   "background_color": "#ffffff",
   "dir": "ltr",
   "display": "standalone",
-  "name": "sircam-html.github",
+  "name": "TeamWork-PWA",
   "orientation": "any",
   "scope": "/",
-  "short_name": "sircam-html.github",
-  "start_url": "/",
+  "short_name": "TeamWork",
+  "start_url": "https://sircam-html.github.io/teamwork/",
   "theme_color": "#FE5000",
   "icons": [
     {
@@ -14,7 +14,7 @@
       "type": "image/x-icon"
     },
     {
-      "src": "images/57x57.png",
+      "src": "./57x57.png",
       "type": "image/png",
       "sizes": "57x57"
     }
