@@ -2,7 +2,7 @@
   "background_color": "#ffffff",
   "dir": "ltr",
   "display": "standalone",
-  "name": "TeamWork-PWA",
+  "name": "TeamWork Progressive Web App",
   "orientation": "any",
   "scope": "/",
   "short_name": "TeamWork",
