@@ -14,7 +14,7 @@
       "type": "image/x-icon"
     },
     {
-      "src": "./57x57.png",
+      "src": "./pwa-icon.png",
       "type": "image/png",
       "sizes": "57x57"
     }
