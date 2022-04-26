@@ -3,8 +3,3 @@
  p{color:#FFF}.button{isolation:isolate}.darkmode--activated .logo{mix-blend-
  mode:difference}.darkmode-toggle{z-index:9999
 }
-
-const options={top:'64px',right:'unset',left:'32px',time:'0.5s',mixColor:'#fff',
-backgroundColor:'#fff',buttonColorDark:'#100f2c',buttonColorLight:'#fff',
-saveInCookies:!1,label:'🌓',autoMatchOsTheme:!0 margin-right:2px}
-const darkmode=new Darkmode(options);darkmode.showWidget()
