@@ -14,8 +14,10 @@
            <link rel="icon" type="image/x-icon" href="./favicon.ico">
                <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
                    <link rel="canonical" href="https://teamwork.on.fleek.co/">
-                     <link rel="manifest" href="manifest.json" />   
-                       <script src="./jquery-3.6.0.min.js"></script>
+                     <link rel="manifest" href="manifest.json" />
+                       <link rel="stylesheet" href="./darkmode-botton.css">
+                         <script src="./darkmode.js"></script>
+                           <script src="./jquery-3.6.0.min.js"></script>
   
         <!-- PWA builder -->   
            <script type="module">
@@ -105,7 +107,22 @@
         </style>
         <div class="auto-style1">
             <a href="https://www.powergamesenlinea.com/"> <button class="button-24" role="button">⇐ dale pa' trá</button> </a>
- 
+          
+       <!-- Darkmode -->
+          <script>
+    var app = document.getElementsByTagName("BODY")[0];
+    if (localStorage.lightMode == "dark") {
+        app.setAttribute("light-mode", "dark");
+    }
+</script>
+
+<div class="container">     
+    <button class="light-mode-button" aria-label="Toggle Light Mode" onclick="toggle_light_mode()">
+        <span></span>
+        <span></span>
+    </button>
+</div>
+           
  </body></html>
 
 <!-- Template Credits: Mauritius D'Silva, url= https://codepen.io/mauritiusdsilva/pen/NqLrxO -->
