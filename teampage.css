@@ -151,6 +151,21 @@ a:hover{
   transition: all 0.4s ease-in-out;
 }
 
+.darkmode--activated p, .darkmode--activated li {
+  color: #000;
+}
+
+.button {
+  isolation: isolate;
+}
+
+.darkmode--activated .logo {
+  mix-blend-mode: difference;
+}
+
+<span class="darkmode-ignore">😬<span>
+
+
 .darkmode-layer, .darkmode-toggle {
   z-index: 500;
 }
