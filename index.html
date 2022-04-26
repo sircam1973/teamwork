@@ -25,13 +25,22 @@
          </script>
    
    <!-- Dark mode JS -->
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/Darkmode.js/1.5.7/darkmode-js.js"></script>
 <script>
-  function addDarkmodeWidget() {
-    new Darkmode().showWidget();
-  }
-  window.addEventListener('load', addDarkmodeWidget);
+    var app = document.getElementsByTagName("BODY")[0];
+    if (localStorage.lightMode == "dark") {
+        app.setAttribute("light-mode", "dark");
+    }
 </script>
+
+<div class="container">
+
+    <h1>Modo Oscuro</h1>
+    <p>Presionando el botón abajo activarás el modo oscuro.</p>
+    <button class="light-mode-button" aria-label="Toggle Light Mode" onclick="toggle_light_mode()">
+        <span></span>
+        <span></span>
+    </button>
+</div>
 
 <!-- Our team Section -->
 </head><body><section id="team" class="team content-section">
