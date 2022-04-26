@@ -1,7 +1,7 @@
 /* Dark  Mode Debug */
  .darkmode--activated li,.darkmode--activated
  p{color:#FFF}.button{isolation:isolate}.darkmode--activated .logo{mix-blend-
- mode:difference}.darkmode-toggle{z-index:500
+ mode:difference}.darkmode-toggle{z-index:9999
 }
 
 const options={top:'64px',right:'unset',left:'32px',time:'0.5s',mixColor:'#fff',
