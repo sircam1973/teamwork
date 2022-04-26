@@ -23,25 +23,7 @@
       import 'https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate';
       const el = document.createElement('pwa-update');
       document.body.appendChild(el);
-         </script>
-   
-   <!-- Dark mode JS -->
-<script>
-    var app = document.getElementsByTagName("BODY")[0];
-    if (localStorage.lightMode == "dark") {
-        app.setAttribute("light-mode", "dark");
-    }
-</script>
-
-<div class="container">
-
-    <h1>Modo Oscuro</h1>
-    <p>Presionando el botón abajo activarás el modo oscuro.</p>
-    <button class="light-mode-button" aria-label="Toggle Light Mode" onclick="toggle_light_mode()">
-        <span></span>
-        <span></span>
-    </button>
-</div>
+         </script> 
 
 <!-- Our team Section -->
 </head><body><section id="team" class="team content-section">
@@ -124,6 +106,25 @@
         </style>
         <div class="auto-style1">
             <a href="https://www.powergamesenlinea.com/"> <button class="button-24" role="button">⇐ dale pa' trá</button> </a>
+          
+          
+             <!-- Dark mode JS -->
+<script>
+    var app = document.getElementsByTagName("BODY")[0];
+    if (localStorage.lightMode == "dark") {
+        app.setAttribute("light-mode", "dark");
+    }
+</script>
+
+<div class="container">
+
+    <h1>Modo Oscuro</h1>
+    <p>Presionando el botón abajo activarás el modo oscuro.</p>
+    <button class="light-mode-button" aria-label="Toggle Light Mode" onclick="toggle_light_mode()">
+        <span></span>
+        <span></span>
+    </button>
+</div>         
  
  </body></html>
 
