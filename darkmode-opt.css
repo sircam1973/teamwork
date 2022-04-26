@@ -1,5 +1,5 @@
 /* Dark  Mode Debug */
  .darkmode--activated li,.darkmode--activated
  p{color:#FFF}.button{isolation:isolate}.darkmode--activated .logo{mix-blend-
- mode:difference}.darkmode-toggle{z-index:100
+ mode:difference}.darkmode-toggle{z-index:200
 }
