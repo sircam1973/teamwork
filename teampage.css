@@ -115,7 +115,7 @@ a:hover{
   visibility: visible;
   color: #fff;
   background: rgb(15,100,92);
-  background: linear-gradient(90deg, rgba(15,100,92,0.8015581232492998) 35%, rgba(15,100,92,0.30575980392156865) 100%);
+  background: linear-gradient(90deg, rgba(15,100,92,1) 0%, rgba(15,100,92,0.8099614845938375) 35%);
    /* Primary color, can be changed via colors.css */
   
   height: 100%;
