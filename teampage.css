@@ -6,6 +6,7 @@ html,
 body {
   width: 100%;
   height: 100%;
+  font-display: swap
 }
 
 body {
@@ -13,7 +14,7 @@ body {
   font-weight: 300;
   color: #355992;
   background-color: #fff;
-  font-display: swap
+  
 }
 
 h1,
