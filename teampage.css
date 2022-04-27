@@ -125,7 +125,7 @@ a:hover{
 }
 
 .team-member figure:hover figcaption ul li a:hover {
-  color: rgba(49, 49, 49, .97);
+  color: rgba(255,221,0,1.00);
 }
 
 .team-member figure img {
