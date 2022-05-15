@@ -1,656 +1,103 @@
-<!DOCTYPE html>
-<html lang="en-US" amp="⚡">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width">
-    <meta name="author" content="Cristian J. Hidalgo">
-    <meta name="theme-color" content="#485683">
-    <meta name="keywords" content="HTML, CSS, JavaScript, Development, Power Games">
-    <meta name="Description" content="Teamwork, quality delivery guaranteed.">
-    <title>TeamWork™ programming &amp; SEO</title>
-    <link rel="preconnect" href="https://cdn.ampproject.org">
-    <link rel="preconnect" href="https://www.powergamesenlinea.com/">
-    <link rel="preload" as="script" href="https://cdn.ampproject.org/v0.js">
-    <script async="" src="https://cdn.ampproject.org/v0.js"></script>
-    <style amp-custom="">
-      .a {
-        background: #485683;
-        border: 1px solid #270f23;
-        border-radius: 6px;
-        box-shadow: 1px 2px 4px rgba(0, 0, 0, .1);
-        box-sizing: border-box;
-        color: #fff;
-        cursor: pointer;
-        display: inline-block;
-        font-family: nunito, roboto, proxima-nova, proxima nova, sans-serif;
-        font-size: 16px;
-        font-weight: 800;
-        line-height: 16px;
-        min-height: 40px;
-        outline: 0;
-        padding: 12px 14px;
-        text-align: center;
-        text-rendering: geometricprecision;
-        text-transform: none;
-        user-select: none;
-        touch-action: manipulation;
-        vertical-align: middle
-      }
-
-      .a:active,
-      .a:hover {
-        background-color: initial;
-        background-position: 0 0;
-        color: #485683
-      }
-
-      .a:active {
-        opacity: .5
-      }
-
-      html {
-        font-family: sans-serif;
-        text-size-adjust: 100%
-      }
-
-      body {
-        margin: 0
-      }
-
-      figcaption,
-      figure,
-      section {
-        display: block
-      }
-
-      a {
-        background-color: transparent
-      }
-
-      a:active,
-      a:hover {
-        outline: 0
-      }
-
-      b {
-        font-weight: 700
-      }
-
-      amp-img {
-        border: 0
-      }
-
-      figure {
-        margin: 1em 40px
-      }
-
-      button {
-        margin: 0;
-        font: inherit;
-        color: inherit;
-        overflow: visible;
-        text-transform: none;
-        appearance: button;
-        cursor: pointer
-      }
-
-      *,
-      :after,
-      :before {
-        box-sizing: border-box
-      }
-
-      html {
-        font-size: 10px;
-        -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
-      }
-
-      body {
-        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-        font-size: 14px;
-        line-height: 1.42857;
-        color: #333
-      }
-
-      button {
-        font-family: inherit;
-        font-size: inherit;
-        line-height: inherit
-      }
-
-      a {
-        color: #337ab7;
-        text-decoration: none
-      }
-
-      a:focus,
-      a:hover {
-        color: #23527c;
-        text-decoration: underline
-      }
-
-      a:focus {
-        outline: 5px auto -webkit-focus-ring-color;
-        outline-offset: -2px
-      }
-
-      figure {
-        margin: 0
-      }
-
-      amp-img {
-        vertical-align: middle
-      }
-
-      .b {
-        display: block;
-        max-width: 100%;
-        height: auto
-      }
-
-      h3,
-      h4 {
-        font-family: inherit;
-        font-weight: 500;
-        line-height: 1.1;
-        color: inherit
-      }
-
-      h3 {
-        margin-top: 20px
-      }
-
-      h3,
-      h4 {
-        margin-bottom: 10px
-      }
-
-      h4 {
-        margin-top: 10px
-      }
-
-      h3 {
-        font-size: 24px
-      }
-
-      h4 {
-        font-size: 18px
-      }
-
-      p {
-        margin: 0 0 10px
-      }
-
-      .c {
-        text-align: center
-      }
-
-      ul {
-        margin-top: 0;
-        margin-bottom: 10px
-      }
-
-      .d {
-        padding-right: 15px;
-        padding-left: 15px;
-        margin-right: auto;
-        margin-left: auto
-      }
-
-      .e {
-        margin-right: -15px;
-        margin-left: -15px
-      }
-
-      .f,
-      .g {
-        position: relative;
-        min-height: 1px;
-        padding-right: 15px;
-        padding-left: 15px
-      }
-
-      .d:after,
-      .d:before,
-      .e:after,
-      .e:before {
-        display: table;
-        content: " "
-      }
-
-      .d:after,
-      .e:after {
-        clear: both
-      }
-
-      @font-face {
-        font-family: FontAwesome;
-        src: url(https://sircam-html.github.io/fonts/fontawesome-webfont.eot#iefix&v=4.4.0) format("embedded-opentype"), url(https://sircam-html.github.io/fonts/fontawesome-webfont.woff2?v=4.4.0) format("woff2"), url(https://sircam-html.github.io/fonts/fontawesome-webfont.woff?v=4.4.0) format("woff"), url(https://sircam-html.github.io/fonts/fontawesome-webfont.ttf?v=4.4.0) format("truetype"), url(https://sircam-html.github.io/fonts/fontawesome-webfont.svg?v=4.4.0#fontawesomeregular) format("svg");
-        font-weight: 400;
-        font-style: normal
-      }
-
-      .h {
-        display: inline-block;
-        font-style: normal;
-        font-variant: normal;
-        font-weight: 400;
-        font-stretch: normal;
-        line-height: 1;
-        font-family: FontAwesome;
-        font-size: inherit;
-        text-rendering: auto;
-        -webkit-font-smoothing: antialiased
-      }
-
-      .i {
-        font-size: 2em
-      }
-
-      .j:before {
-        content: ""
-      }
-
-      .k:before {
-        content: ""
-      }
-
-      .l:before {
-        content: ""
-      }
-
-      .m:before {
-        content: ""
-      }
-
-      .n:before {
-        content: ""
-      }
-
-      .o:before {
-        content: ""
-      }
-
-      .p:before {
-        content: ""
-      }
-
-      .q:before {
-        content: ""
-      }
-
-      body,
-      html {
-        width: 100%;
-        height: 100%
-      }
-
-      body {
-        font-family: Open Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
-        font-weight: 300;
-        color: #355992;
-        background-color: #fff
-      }
-
-      h3,
-      h4 {
-        margin: 0 0 20px;
-        text-transform: none;
-        color: #485683;
-        font-family: Raleway, Helvetica Neue, Helvetica, Arial, sans-serif;
-        font-weight: 600;
-        letter-spacing: 1px;
-        line-height: 1.5
-      }
-
-      a:active,
-      a:link {
-        color: #fff
-      }
-
-      a:hover {
-        color: hsla(0, 0%, 100%, .6)
-      }
-
-      .r {
-        margin: 40px
-      }
-
-      .s {
-        margin: 15px 0;
-        padding: 0
-      }
-
-      .s figure {
-        position: relative;
-        overflow: hidden;
-        padding: 0;
-        margin: 0
-      }
-
-      .s figure amp-img {
-        min-width: 100%
-      }
-
-      .s figcaption p {
-        font-size: 16px
-      }
-
-      .s figcaption ul {
-        list-style: none;
-        margin: 0;
-        padding: 0;
-        visibility: visible;
-        transition: all .1s ease-in-out 0s
-      }
-
-      .s figcaption ul li {
-        display: inline-block;
-        padding: 10px
-      }
-
-      .s h4 {
-        margin: 10px 0 0;
-        padding: 0
-      }
-
-      .s figcaption {
-        padding: 50px;
-        color: transparent;
-        background-color: transparent;
-        position: absolute;
-        z-index: 996;
-        bottom: 0;
-        left: 0;
-        width: 100%;
-        height: 0;
-        overflow: hidden;
-        visibility: hidden;
-        transition: all .3s ease-in-out 0s
-      }
-
-      .s figure:hover figcaption {
-        visibility: visible;
-        color: #ffffdb;
-        background-color: rgba(72, 86, 131, .7);
-        height: 100%;
-        transition: all .3s ease-in-out 0s
-      }
-
-      .s figure:hover figcaption ul li a:hover {
-        color: #fd0
-      }
-
-      .s figure amp-img {
-        transform: scale(1) rotate(0deg) translateY(0);
-        transition: all .4s ease-in-out 0s
-      }
-
-      .s figure:hover amp-img {
-        transform: scale(1.1) rotate(1deg) translateY(12px);
-        transition: all .4s ease-in-out 0s
-      }
-
-      :root:not(#a):not(#a):not(#a):not(#a) .t {
-        display: inline-block
-      }
-
-      :root:not(#a):not(#a):not(#a):not(#a) amp-img>img {
-        object-fit: inherit;
-        object-position: inherit
-      }
-
-      :root:not(#a):not(#a):not(#a):not(#a) .u,
-      [layout=fixed][width="0"][height="0"] {
-        display: none
-      }
-    </style>
-    <link rel="icon" type="image/x-icon" href="https://sircam-html.github.io/teamwork/favicon.ico">
-    <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
-    <link rel="canonical" href="https://teamwork.on.fleek.co/">
-    <!-- Our team Section -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,600&amp;family=Open%20Sans:ital,wght@0,300">
-    <script type="application/ld+json">
-      {
-        "@context": "http:\/\/schema.org",
-        "publisher": {
-          "@type": "Organization",
-          "name": "Ampify",
-          "logo": "http:\/\/wpa\/wp-content\/plugins\/assets\/images\/amp-page-fallback-wordpress-publisher-logo.png"
-        },
-        "@type": "WebPage",
-        "mainEntityOfPage": "http:\/\/wpa\/ampify\/",
-        "headline": "ampify",
-        "datePublished": "2019-10-17T17:00:23+00:00",
-        "dateModified": "2019-10-17T17:00:23+00:00",
-        "author": {
-          "@type": "Person",
-          "name": "ampify"
-        }
-      }
-    </script>
-    <style amp-boilerplate="">
-      body {
-        -webkit-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
-        -moz-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
-        -ms-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
-        animation: -amp-start 8s steps(1, end) 0s 1 normal both
-      }
-
-      @-webkit-keyframes -amp-start {
-        from {
-          visibility: hidden
-        }
-
-        to {
-          visibility: visible
-        }
-      }
-
-      @-moz-keyframes -amp-start {
-        from {
-          visibility: hidden
-        }
-
-        to {
-          visibility: visible
-        }
-      }
-
-      @-ms-keyframes -amp-start {
-        from {
-          visibility: hidden
-        }
-
-        to {
-          visibility: visible
-        }
-      }
-
-      @-o-keyframes -amp-start {
-        from {
-          visibility: hidden
-        }
-
-        to {
-          visibility: visible
-        }
-      }
-
-      @keyframes -amp-start {
-        from {
-          visibility: hidden
-        }
-
-        to {
-          visibility: visible
-        }
-      }
-    </style>
-    <noscript>
-      <style amp-boilerplate="">
-        body {
-          -webkit-animation: none;
-          -moz-animation: none;
-          -ms-animation: none;
-          animation: none
-        }
-      </style>
-    </noscript>
-  </head>
-  <body>
-    <section id="b" class="r">
-      <div class="d">
-        <div class="e c">
-          <div class="g">
-            <amp-img src="https://sircam-html.github.io/teamwork/teamwork_logo.png" width="187" height="26" alt="teamwork" class="t amp-wp-enforced-sizes" layout="fixed">
-              <noscript>
-                <img src="https://sircam-html.github.io/teamwork/teamwork_logo.png" width="187" height="26" alt="teamwork" class="t">
-              </noscript>
-            </amp-img>
-            <h3 class="">Web management staff</h3>
-          </div>
-          <!-- /.col-md-12 -->
-          <div class="d">
-            <div class="e">
-              <div class="f">
-                <div class="s">
-                  <figure>
-                    <amp-img src="https://sircam-html.github.io/teamwork/cristian-no_real-pic.webp" width="550" height="450" alt="Cris" class="b amp-wp-enforced-sizes" layout="intrinsic">
-                      <noscript>
-                        <img src="https://sircam-html.github.io/teamwork/cristian-no_real-pic.webp" width="550" height="450" alt="Cris" class="b">
-                      </noscript>
-                    </amp-img>
-                    <figcaption>
-                      <p>Front/back-end web programmer &amp; SEO since 2010, coding skills in HTML, CSS &amp; JavaScript.</p>
-                      <ul>
-                        <li>
-                          <a href="https://github.com/sircam-html/" class="">
-                            <i class="h l i"></i>
-                          </a>
-                        </li>
-                        <li>
-                          <a href="https://g.dev/sircam" class="">
-                            <i class="h p i"></i>
-                          </a>
-                        </li>
-                        <li>
-                          <a href="https://www.linkedin.com/in/sircam/" class="">
-                            <i class="h n i"></i>
-                          </a>
-                        </li>
-                        <li>
-                          <a href="http://uid.me/cristian_hidalgo" class="">
-                            <i class="h m i"></i>
-                          </a>
-                        </li>
-                      </ul>
-                    </figcaption>
-                  </figure>
-                  <h4>Cristian J. Hidalgo</h4>
-                  <p>
-                    <b>Lead web developer</b>
-                  </p>
-                </div>
-                <!-- /.team-member-->
-              </div>
-              <!-- /.col-md-4 -->
-              <div class="f">
-                <div class="s">
-                  <figure>
-                    <amp-img src="https://sircam-html.github.io/teamwork/eliezer-no-real-pic.webp" width="550" height="450" alt="Eliu" class="b amp-wp-enforced-sizes" layout="intrinsic">
-                      <noscript>
-                        <img src="https://sircam-html.github.io/teamwork/eliezer-no-real-pic.webp" width="550" height="450" alt="Eliu" class="b">
-                      </noscript>
-                    </amp-img>
-                    <figcaption>
-                      <p>Full-Stack Web Development student at the Columbia University Coding Bootcamp, expert in HTML &amp; CSS</p>
-                      <ul>
-                        <li>
-                          <a href="https://github.com/eliezeralmonte" class="">
-                            <i class="h l i"></i>
-                          </a>
-                        </li>
-                        <li>
-                          <a href="https://www.linkedin.com/in/eliezer-almonte-aa05a955/" class="">
-                            <i class="h n i"></i>
-                          </a>
-                        </li>
-                        <li>
-                          <a href="https://eliezeralmonte.github.io/portfolio-website//" class="">
-                            <i class="h m i"></i>
-                          </a>
-                        </li>
-                        <li>
-                          <a href="https://twitter.com/eliezeralmonte" class="">
-                            <i class="h k i"></i>
-                          </a>
-                        </li>
-                      </ul>
-                    </figcaption>
-                  </figure>
-                  <h4>Eliezer Almonte</h4>
-                  <p>
-                    <b>Deputy web developer</b>
-                  </p>
-                </div>
-                <!-- /.team-member-->
-              </div>
-              <!-- /.col-md-4 -->
-              <div class="f">
-                <div class="s">
-                  <figure>
-                    <amp-img src="https://sircam-html.github.io/teamwork/real-misterchief.webp" width="550" height="450" alt="Chief" class="b amp-wp-enforced-sizes" layout="intrinsic">
-                      <noscript>
-                        <img src="https://sircam-html.github.io/teamwork/real-misterchief.webp" width="550" height="450" alt="Chief" class="b">
-                      </noscript>
-                    </amp-img>
-                    <figcaption>
-                      <p>Well, we put this guy here to fill up the empty space of this section due to the lack of developers.😅</p>
-                      <ul>
-                        <li>
-                          <a href="#" class="">
-                            <i class="h o i"></i>
-                          </a>
-                        </li>
-                        <li>
-                          <a href="#" class="">
-                            <i class="h j i"></i>
-                          </a>
-                        </li>
-                        <li>
-                          <a href="#" class="">
-                            <i class="h q i"></i>
-                          </a>
-                        </li>
-                      </ul>
-                    </figcaption>
-                  </figure>
-                  <h4>Mister Chief</h4>
-                  <p>
-                    <b>Weapons needer</b>
-                  </p>
-                </div>
-                <!-- /.team-member-->
-              </div>
-              <!-- /.col-md-4 -->
-            </div>
-            <!-- /.row -->
-          </div>
-          <!-- /.container -->
-        </div>
-        <!-- /.row -->
-      </div>
-      <!-- /.container -->
-    </section>
-    <!-- /.our-team -->
-    <div class="c">
-      <a href="https://www.powergamesenlinea.com/" class="">
-        <button class="a">◄ Go back</button>
-      </a>
-    </div>
-    <!-- Credits & thanks: Mauritius D'Silva - https://www.mauritiusdsilva.com -->
-    <!-- Template Codepen: url= https://codepen.io/mauritiusdsilva/pen/NqLrxO -->
-    <!--DEBUG: ampify algo v-1.9.10 @1652572581351-->
-  </body>
-</html>
+<!DOCTYPE html><html lang="en-US"><head>  
+  
+                 <meta charset="UTF-8">
+         <meta name="author" content="Cristian J. Hidalgo">
+
+      <title>TeamWork™ programming & SEO</title>
+  
+         <meta name="theme-color" content="#485683"/>
+       <meta name="viewport" content="width=device-width" />
+    <meta name = "keywords" content = "HTML, CSS, JavaScript, Development, Power Games">
+ <meta name="Description" content="Teamwork, quality delivery guaranteed."> 
+   <link rel="preconnect" href="https://www.powergamesenlinea.com/">
+    <link rel="stylesheet" type="text/css" href="./button-24.css">
+       <link rel="stylesheet" href="./teampage.css">
+          <link rel="icon" type="image/x-icon" href="./favicon.ico">
+            <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+               <link rel="canonical" href="https://teamwork.on.fleek.co/">
+          
+<!-- Our team Section -->
+</head><body><section id="team" class="team content-section">
+  <div class="container">
+    <div class="row text-center">
+      <div class="col-md-12">
+        <img src="./teamwork_logo.png" width="187" height="26" alt="teamwork" class="center">
+
+        <h3 class="#485683">Web management staff</h3>
+      </div><!-- /.col-md-12 -->
+
+      <div class="container">
+        <div class="row">
+
+          <div class="col-md-4">
+            <div class="team-member">
+              <figure>
+                <img src="./cristian-no_real-pic.webp" width="550" height="450" alt="Cris" class="img-responsive">
+                <figcaption>
+                  <p>Front/back-end web programmer & SEO since 2010, coding skills in HTML, CSS & JavaScript.</p>
+                  <ul>
+                    <li><a href="https://github.com/sircam-html/"><i class="fa fa-github fa-2x"></i></a></li>
+                       <li><a href="https://g.dev/sircam"><i class="fa fa-google fa-2x"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/sircam/"><i class="fa fa-linkedin fa-2x"></i></a></li>
+                     <li><a href="http://uid.me/cristian_hidalgo"><i class="fa fa-link fa-2x"></i></a></li>
+                  </ul>
+                </figcaption>
+              </figure>
+               <h4>Cristian J. Hidalgo</h4>
+              <p><b>Lead web developer</b></p>
+             </div><!-- /.team-member-->
+          </div><!-- /.col-md-4 -->
+
+          <div class="col-md-4">
+            <div class="team-member">
+              <figure>
+                <img src="./eliezer-no-real-pic.webp" width="550" height="450" alt="Eliu" class="img-responsive">
+                <figcaption>
+                  <p>Full-Stack Web Development student at the Columbia University Coding Bootcamp, expert in HTML & CSS</p>
+                  <ul>
+                   <li><a href="https://github.com/eliezeralmonte"><i class="fa fa-github fa-2x"></i></a></li>
+                   <li><a href="https://www.linkedin.com/in/eliezer-almonte-aa05a955/"><i class="fa fa-linkedin fa-2x"></i></a></li>
+                   <li><a href="https://eliezeralmonte.github.io/portfolio-website//"><i class="fa fa-link fa-2x"></i></a></li>
+                   <li><a href="https://twitter.com/eliezeralmonte"><i class="fa fa-twitter fa-2x"></i></a></li>
+                  </ul>
+                </figcaption>
+              </figure>
+              <h4>Eliezer Almonte</h4>
+              <p><b>Deputy web developer</b></p>
+             </div><!-- /.team-member-->
+          </div><!-- /.col-md-4 -->
+
+          <div class="col-md-4">
+            <div class="team-member">
+              <figure>
+                <img src="./real-misterchief.webp" width="550" height="450" alt="Chief" class="img-responsive">
+                <figcaption>
+                  <p>Well, we put this guy here to fill up the empty space of this section due to the lack of developers.😅</p>
+                  <ul>
+                    <li><a href="#"><i class="fa fa-youtube-play fa-2x"></i></a></li>
+                    <li><a href="#"><i class="fa fa-facebook-square fa-2x"></i></a></li>
+                    <li><a href="#"><i class="fa fa-reddit fa-2x"></i></a></li>
+                  </ul>
+                </figcaption>
+              </figure>
+              <h4>Mister Chief</h4>
+              <p><b>Weapons needer</b></p>
+             </div><!-- /.team-member-->
+          </div><!-- /.col-md-4 -->
+           
+        </div><!-- /.row -->
+      </div><!-- /.container -->    
+         
+    </div><!-- /.row -->
+  </div><!-- /.container -->   
+</section><!-- /.our-team -->  
+    
+   <div class="text-center">
+           <a href="https://www.powergamesenlinea.com/"> 
+   <button class="button-24">◄ Go back</button> </a>
+</div>
+        
+ </body></html>
+
+<!-- Credits & thanks: Mauritius D'Silva - https://www.mauritiusdsilva.com -->
+<!-- Template Codepen: url= https://codepen.io/mauritiusdsilva/pen/NqLrxO --> 
