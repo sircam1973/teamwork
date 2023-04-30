@@ -19,13 +19,8 @@
   <!-- DarkmodeJS -->
 <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
 <script>
-  function addDarkmodeWidget() {
-    new Darkmode().showWidget();
-  }
-  window.addEventListener('load', addDarkmodeWidget);
-</script>
   
-const options = {
+  const options = {
   bottom: '64px', // default: '32px'
   right: 'unset', // default: '32px'
   left: '32px', // default: 'unset'
@@ -40,8 +35,14 @@ const options = {
 }
 
 const darkmode = new Darkmode(options);
-darkmode.showWidget();  
-          
+darkmode.showWidget();
+  
+  function addDarkmodeWidget() {
+    new Darkmode().showWidget();
+  }
+  window.addEventListener('load', addDarkmodeWidget);
+</script>
+  
 <!-- Our team Section -->
 </head><body><section id="team" class="team content-section">
   <div class="container">
