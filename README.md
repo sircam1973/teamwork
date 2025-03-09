@@ -3,8 +3,6 @@ This is a simple website for representation purpose.
 
 
 
-# Template copyright
-
 Copyright (c) 2023 by Mauritius D'Silva (https://codepen.io/mauritiusdsilva/pen/NqLrxO)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), 
